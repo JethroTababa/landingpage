@@ -1,0 +1,30 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 10px;
+
+}
+.container{
+    grid-template-areas: 
+        "logo header header header"
+        "nav nav nav nav"
+        "hero hero hero hero"
+        "main main main main"
+        "footer footer footer";
+}
+.item{
+    display: flex;
+    background-color: antiquewhite;
+
+    
+}
+.item-hero{
+    background-image: url(/images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item-hero img{
+     background-position: right;
+
+}
+
